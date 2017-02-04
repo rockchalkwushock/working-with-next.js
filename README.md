@@ -2,18 +2,13 @@
 
 ## Purpose
 
-This is a working repository for playing around with the Next.js framework. More will come but for now I'm just getting the gist of how it works. I will continue to make my own _NoteToSelf_ set of notes on the tech as I work with it and read through the docs. Very cool stuff tech and I would recommend anyone working with a _jsx_ framework to check this out!
+This is a working repository for playing around with the Next.js framework. More will come but for now I'm just getting the gist of how it works. I will continue to make my own _NoteToSelf_ set of notes on the tech as I work with it and read through the docs. Those notes will be placed here for anyone to use. Very cool stuff tech and I would recommend anyone working with a _jsx_ framework to check this out!
 
 For more in-depth information on the tech: [Next.js](https://github.com/zeit/next.js)
 
 ## How to use this repo...
 
 ```bash
-git clone https://github.com/rockchalkwushock/working-with-next.js.git
-cd working-with-next.js
-yarn install
-yarn dev
-
 $ git clone https://github.com/rockchalkwushock/working-with-next.js.git
 $ cd working-with-next.js
 working-with-next.js $ yarn install
@@ -27,7 +22,8 @@ Open your browser to [http://localhost:3000/](http://localhost:3000/).
 - Next.js expects a _pages/_
 - `next` will generate _.next/_ which holds the bundles.
 - Files in _pages/_ should be looked at as _routes_ in the application.
-- Any file in _pages/_ should be a function **PERIOD**.
+~~- Any file in _pages/_ should be a function **PERIOD**.~~
+- Any component or _page_ in Next.js should be a function. The idea of this frame work is that everything is a function.
 
 ### Routing
 - Routing is handled by `next/router`.
