@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Page from '../components/Page';
 
-export default () => (
-  <div className="aboutroute">
-    <h1>This is the About Page.</h1>
-    <p>It is the '/about' route.</p>
-  </div>
-);
+export default class extends Component {
+  render() {
+    return (
+      <div className="about">
+        <Page content='This is the about page.' />
+      </div>
+    );
+  }
+}

@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Page from '../components/Page';
 
-export default () => (
-  <div className="portfolioroute">
-    <h1>This is the Portfolio Page.</h1>
-    <p>It is the '/portfolio' route.</p>
-  </div>
-);
+export default class extends Component {
+  render() {
+    return (
+      <div className="portfolio">
+        <Page content='This is the portfolio page.' />
+      </div>
+    );
+  }
+}

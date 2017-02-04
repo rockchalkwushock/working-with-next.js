@@ -4,7 +4,7 @@ import Page from '../components/Page';
 export default class extends Component {
   render() {
     return (
-      <Page />
+      <Page content='This is the homepage.' />
     );
   }
 }

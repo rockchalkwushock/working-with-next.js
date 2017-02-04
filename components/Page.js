@@ -9,13 +9,13 @@ import Footer from './Footer';
 import Header from './Header';
 import Meta from './Meta';
 
-export default ({ children }) => (
+export default ({ content }) => (
   <div className="main">
     <Meta />
     <Header />
 
     <div className="page">
-      {children}
+      { content }
     </div>
 
     <style jsx>{`
