@@ -1,5 +1,27 @@
 # working-with-next.js
 
+## Purpose
+
+This is a working repository for playing around with the Next.js framework. More will come but for now I'm just getting the gist of how it works. I will continue to make my own _NoteToSelf_ set of notes on the tech as I work with it and read through the docs. Very cool stuff tech and I would recommend anyone working with a _jsx_ framework to check this out!
+
+For more in-depth information on the tech: [Next.js](https://github.com/zeit/next.js)
+
+## How to use this repo...
+
+```bash
+git clone https://github.com/rockchalkwushock/working-with-next.js.git
+cd working-with-next.js
+yarn install
+yarn dev
+
+$ git clone https://github.com/rockchalkwushock/working-with-next.js.git
+$ cd working-with-next.js
+working-with-next.js $ yarn install
+working-with-next.js $ yarn dev
+```
+
+Open your browser to [http://localhost:3000/](http://localhost:3000/).
+
 ## Notes
 
 - Next.js expects a _pages/_
